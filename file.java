@@ -1,7 +1,4 @@
-import java.util.Scanner;  
-import java.lang.Math;  
-import java.io.printer; 
-import java.io.collection; 
+This is my GIT Session......!
 import java.io.scanner;
 import java.io.outputprinter;
 import java.io.inputprinter;
@@ -34,4 +31,14 @@ System.out.println();
 //function calling  
 printPattern(n);  
 }  
+} 
+//driver code  
+public static void main(String args[])  
+{  
+Scanner sc = new Scanner(System.in);  
+System.out.print("Enter the value of n: ");  
+int n = sc.nextInt();  
+System.out.println();  
+//function calling  
+printPattern(n);  
 }  
